@@ -4,6 +4,7 @@ pipeline {
         stage("build"){
 	    steps {
 	       sh "echo Integrating Jenkins pipeline with github webohook using jenkinsfile"
+	       sh "ls"
 	       }
 
 	    }  
