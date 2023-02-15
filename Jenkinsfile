@@ -6,6 +6,8 @@ pipeline {
 	       sh "echo Integrating Jenkins pipeline with github webohook using jenkinsfile"
 	       sh "ls"
 	       sh "echo configuration on pipeline works"
+	       sh "python --version"
+	       sh "python pipeline.py"
 	       }
 
 	    }  
